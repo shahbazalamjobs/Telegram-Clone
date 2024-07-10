@@ -2,7 +2,7 @@
 import React from 'react';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import '../styles/ChatWindow.css'; // Import your CSS file
+import '../styles/ChatWindow.css'; 
 
 const ChatWindow = ({ messages, onBack }) => {
   return (
