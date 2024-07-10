@@ -107,8 +107,8 @@ The application supports dark mode, which can be toggled using the button in the
 
 ## Deployment
 
-- Deployed at Netlift
-- Link Live:  
+- Deployed at Vercel
+- Link Live:  [telegram-clone-cyan.vercel.app](telegram-clone-cyan.vercel.app)
 
 
 ## Credits
