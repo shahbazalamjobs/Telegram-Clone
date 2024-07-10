@@ -26,7 +26,7 @@ This project is a pixel-perfect replica of the Telegram messaging application, d
 
 ## Project Structure
 
-```
+```bash
 src/
 │
 ├── components/
