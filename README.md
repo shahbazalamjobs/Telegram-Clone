@@ -1,6 +1,14 @@
 
-```markdown
+
 # Telegram Clone
+
+![image](https://github.com/shahbazalamjobs/Tp/assets/125631878/ed135412-5b29-4785-92a7-137095038faf)
+![image](https://github.com/shahbazalamjobs/Tp/assets/125631878/4adc3c4b-2518-4f24-a971-5a457d2ebe79)
+![image](https://github.com/shahbazalamjobs/Tp/assets/125631878/c98cb73a-1aa8-491e-a9b7-9a1a0fdd80a1)
+![image](https://github.com/shahbazalamjobs/Tp/assets/125631878/82f466dd-6b7b-4b44-85b7-3bf2786333aa)
+![image](https://github.com/shahbazalamjobs/Tp/assets/125631878/55ee53ca-45fa-4c8f-bc0f-66b87a14bcda)
+![image](https://github.com/shahbazalamjobs/Tp/assets/125631878/0eca7c50-dc29-409c-9f8a-33ac427ad613)
+
 
 This project is a pixel-perfect replica of the Telegram messaging application, developed using ReactJS. The application includes both desktop and mobile views and utilizes two API endpoints to display chats and their messages.
 
@@ -65,7 +73,7 @@ src/
 
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Usage
@@ -97,22 +105,12 @@ The application supports dark mode, which can be toggled using the button in the
 
 ## Deployment
 
-To deploy the project, you can use services like Vercel, Netlify, or GitHub Pages. Ensure that you build the project before deployment:
+- Deployed at Netlift
+- Link Live:  
 
-```bash
-npm run build
-```
-
-Then, follow the deployment instructions of your chosen platform.
 
 ## Credits
 
 - [Telegram](https://telegram.org/) for the UI/UX inspiration.
 - [BeyondChats API](https://devapi.beyondchats.com) for providing the chat and message data.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-This `README.md` covers all the essential aspects, including installation, usage, features, and deployment instructions. You can adjust the repository URL and license details as per your project's specifics.
