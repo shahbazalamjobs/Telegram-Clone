@@ -1,0 +1,71 @@
+/* ChatList.css  */
+
+.chat-list {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+} 
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.dark-mode .chat-item {
+  border-bottom: 1px solid rgba(35, 48, 64, 255);
+}
+
+.chat-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dark-mode .chat-item:hover {
+  background-color: rgba(35, 48, 64, 255);
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.chat-info {
+  flex: 1;
+}
+
+.chat-list .chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.chat-name {
+  font-weight: bold;
+}
+
+.last-message-date {
+  color: #888;
+  font-size: 0.8em;
+}
+
+.last-message {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #888;
+  font-size: 0.9em;
+  max-width: 32ch;
+  margin-top: 4px;
+}
